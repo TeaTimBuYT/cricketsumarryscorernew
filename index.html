@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - ADVITSSCOREO</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Match Summary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loginForm">
+        <h2>Admin Login</h2>
+        <form>
+            <input type="password" id="passwordInput" placeholder="Enter Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <button id="viewWithoutLogin">View Results</button>
+    </div>
+    <div id="viewResults" style="display:none;">
+        <button id="backButton">Back</button>
+        <h2>Match Summaries</h2>
+        <div id="matchesList"></div>
+    </div>
+    <div id="summaryPage" style="display:none;">
+        <button id="backToResultsButton">Back</button>
+        <div id="display" class="display-container"></div>
+    </div>
+    <div id="content" style="display:none;">
+        <button id="backButtonAdmin">Back</button>
+        <div class="form-container">
+            <h2>Enter Match Details</h2>
+            <form id="matchForm">
+                <label for="matchPhoto">Match Photo:</label>
+                <input type="file" id="matchPhoto" accept="image/*">
+                
+                <label for="matchSummary">Match Summary:</label>
+                <textarea id="matchSummary" required></textarea>
+                
+                <label for="captainsRemarks">Captain's Remarks:</label>
+                <textarea id="captainsRemarks" required></textarea>
+                
+                <label for="awards">Awards of the Match:</label>
+                <textarea id="awards" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
